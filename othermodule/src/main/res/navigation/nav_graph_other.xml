@@ -16,7 +16,7 @@
         android:name="com.example.othermodule.UrlActivity">
         <argument
             android:name="url"
-            android:defaultValue="@string/some_link"
+            android:defaultValue="@string/some_other_link"
             app:argType="reference" />
     </activity>
 
