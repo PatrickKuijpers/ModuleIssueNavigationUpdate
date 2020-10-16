@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.moduleissuetest.MainActivity">
+    <item
+        android:id="@id/UrlActivity"
+        android:title="@string/action_link"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_other"
+    app:startDestination="@id/otherFragment">
+
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="com.example.othermodule.OtherFragment"
+        android:label="@string/other_fragment_label"
+        tools:layout="@layout/fragment_other" />
+
+    <activity
+        android:id="@+id/UrlActivity"
+        android:name="com.example.othermodule.UrlActivity">
+        <argument
+            android:name="url"
+            android:defaultValue="@string/some_link"
+            app:argType="reference" />
+    </activity>
+
+</navigation>
