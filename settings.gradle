@@ -1,0 +1,3 @@
+include ':othermodule'
+include ':app'
+rootProject.name = "Module issue test"
