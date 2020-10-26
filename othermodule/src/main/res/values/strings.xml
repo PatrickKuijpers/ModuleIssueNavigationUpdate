@@ -3,6 +3,4 @@
     <string name="other_fragment_label">Other Fragment</string>
 
     <string name="hello_other_fragment">Hello other fragment</string>
-
-    <string name="some_other_link">@string/some_link</string>
 </resources>
